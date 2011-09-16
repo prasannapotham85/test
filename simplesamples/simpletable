@@ -1,0 +1,9 @@
+t = {} -- create a table
+k = "x"
+y = 10
+t[k] = 3.14
+t[10] = "hi"
+print( t[k] )
+print( t["x"] )
+print( t.x )
+print( t.y )
